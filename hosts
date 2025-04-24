@@ -1,0 +1,6 @@
+[server]
+ipa.otus.lan     ansible_host=10.200.3.221
+[clients]
+client1.otus.lan ansible_host=10.200.3.222
+client2.otus.lan ansible_host=10.200.3.223
+
