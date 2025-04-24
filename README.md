@@ -68,11 +68,14 @@ Valid starting       Expires              Service principal
 04/24/2025 14:42:27  04/25/2025 13:46:43  krbtgt/OTUS.LAN@OTUS.LAN  
   
 Зайдем на Web-интерфейс FreeIPA-сервера:  
-тут скрин  
+![Скриншот 24-04-2025 145007](https://github.com/user-attachments/assets/d2ce4a12-de4e-4b5f-b477-b40b3008208e)
+
   
 2. Запустим плейбук provision.yml  
-Дожидаемся выполнения плейбука.  
-  
+Дожидаемся выполнения плейбука.
+Видим что хосты зарегистрированы
+![Скриншот 24-04-2025 153557](https://github.com/user-attachments/assets/2829d5b8-66de-4b2f-aab7-8d5d7d88fa54)
+
 Создадим пользователя otus-user  
 на IPA сервере:   
 ```
